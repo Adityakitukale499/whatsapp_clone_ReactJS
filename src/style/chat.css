@@ -1,0 +1,126 @@
+.chat{
+    flex: 0.65;
+    display: flex;
+    flex-direction: column;
+}
+.chat .chat_header{
+    display: flex;
+    align-items: center;
+    background-color: #dee4e1;
+    border-bottom:1px solid lightgray ;
+    padding: 10px; 
+}
+.chat_headerInfo{
+    flex: 1;
+    margin-left: 10px;
+}
+.chat_headerInfo h3{
+    font-size: 16px;
+}
+.chat_headerInfo p{
+    font-size: 12px;
+}
+.chat_headerRight{
+    display: flex;
+    align-items: center;
+}
+.chat_headerRight svg{
+    font-size: 18px;
+}
+.chat_body{
+    background-image: url(../pxfuel.jpg);
+    flex: 1;
+    padding: 25px 10px;
+    overflow-y: auto;
+}
+.chat_help{
+    padding:0 ;
+}
+.chat_help #helpIcon{
+    position: fixed;
+    margin-left: -20%;
+}
+.chat_body .chat_massage{
+    position: relative;
+    background-color: #fff;
+    width: fit-content;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+.chat_name{
+    position: absolute;
+    top: -18px;
+    left: 5px;
+    font-size: 10px;
+    font-weight: bold;
+}
+.chat_time{
+    font-size: 10px;
+    margin-left: 10px;
+}
+.chat_reciever{
+    position: relative;
+    width: fit-content;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-bottom: 30px;
+    background-color: lightgreen;
+    margin-left: auto;
+}
+.chat_footer{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.chat_footer form{
+    display: flex;
+    align-items: center;
+    /* padding: 10px; */
+}
+.chat_footer svg{
+    padding: 10px;
+    color: gray;
+}
+.chat_footer form{
+    flex: 1;
+}
+.chat_footer form input[type='text']{
+    border: 0;
+    height: 40px;
+    outline: 0;
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding-left: 5px;
+}
+/* .chat_footer form input[type='submit']{
+    display: none;
+} */
+.selectSender{
+    width: 30px;
+    padding: 8px;
+    font-size: 20px;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    /* border-radius: 50%; */
+}
+#send_btn{
+    background-color: transparent;
+    border: none;
+}
+.help{
+    margin: 0 25%;
+    padding: 5px 20px;
+    background-color: #bac9bd;
+    border-radius: 10px;
+}
+.wh_img{
+    display: block;
+    height: 300px;
+    width: 300px;
+    margin: 10% 30%;
+}
