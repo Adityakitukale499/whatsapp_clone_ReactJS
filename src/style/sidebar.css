@@ -45,6 +45,8 @@
     display: flex;
     background-color: #fff;
     flex-direction: column;
+    overflow: scroll;
+    height: 85vh;
 }
 .sidebar_chat{
     display: flex;
