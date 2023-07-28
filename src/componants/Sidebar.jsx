@@ -21,7 +21,7 @@ const Sidebar = ({ setChat, setImage }) => {
             setFiltercontact(Object.keys(localStorage))
         }
         else{
-            const data = contacts.filter((ele)=> JSON.parse(localStorage.getItem(ele)).name.includes(searchBar))
+            const data = contacts.filter((ele)=> JSON.parse(localStorage.getItem(ele)).name.toLowerCase().includes(searchBar.toLowerCase()))
             console.log(data);
             setFiltercontact(data)
         }
