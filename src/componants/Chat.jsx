@@ -10,7 +10,7 @@ import '../style/chat.css'
 import Mgs from './Mgs';
 import ChatHome from './ChatHome';
 const Chat = (props) => {
-    const [chat, setChat] = useState()
+    const [chat, setChat] = useState('')
     const [name, setName] = useState('')
     const [mgs, setMgs] = useState('')
     const [sent, setSent] = useState('sender')
