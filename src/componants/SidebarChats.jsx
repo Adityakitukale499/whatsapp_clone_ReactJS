@@ -10,7 +10,8 @@ const SidebarChats = (props) => {
     console.log(img);
   }
 
-  return (<div className='sidebar_chat' id={props.id} onClick={showChat}>
+  return (
+    <div className='sidebar_chat' id={props.id} onClick={showChat}>
       <Avatar src={img}/>
       <div className="sidebar_chatInfo">
         <h2>{props.name}</h2>
